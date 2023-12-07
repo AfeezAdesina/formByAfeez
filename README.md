@@ -5,7 +5,7 @@ This is a solution to the assigment given to us help you improve our coding skil
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![](./image_2023-12-07_210829469.png)
 
 
 ### Links
