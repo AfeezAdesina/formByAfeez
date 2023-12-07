@@ -14,9 +14,6 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'Work Sans', sans-serif;
-    max-width: 1440px;
-    
-    /* font-size: 10px; */
 }
 
 img,
@@ -67,8 +64,6 @@ h6 {
 }
 
 .container{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     display: flex;
     max-width: 1440px;
     align-items: center;
@@ -117,9 +112,6 @@ h6 {
 }
 
 .form-flex{
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
