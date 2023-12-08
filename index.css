@@ -176,6 +176,33 @@ footer a:link,footer a:visited{
 
 }
 
+@media only screen and (max-width:1024px){
+    .container{
+        padding:75px 50px;
+        gap: 20px;
+    }
+    #form1{
+        width:500px;
+    }
+    .main-sec{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:820px){
+    .container{
+        padding:75px 20px;
+        gap:20px
+    }
+    #form1{
+        width:350px;
+    }
+    .main-sec{
+        width: 300px;
+        margin-bottom: 32px;
+    }
+}
+
 
 @media only screen and (max-width:576px){
     .container{
@@ -222,17 +249,3 @@ footer a:link,footer a:visited{
     }
 }
 
-@media only screen and (max-width:820px){
-    .container{
-        padding:75px 50px;
-        justify-content: space-around;
-    }
-    #form1{
-        width:350px;
-        padding: 16px;
-    }
-    .main-sec{
-        width: 350px;
-        margin-bottom: 32px;
-    }
-}
