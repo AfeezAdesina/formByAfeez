@@ -40,13 +40,16 @@
             <p class="mobile-text">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
 
         </div>
-        <div >
+        <div>
             <form id="form1" name="form1" method="post" action="">
 
-                <div class="form-flex"> 
+                <div class="form-flex">
+
+                    
+                    
                     <p>
                         <label for="first-name">First Name:</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Tolu" class="border"/>
+                        <input type="text" name="first-name" id="first-name" placeholder="Tolu" class="border" autofocus/>
                     </p>
                     <p>
                         <label for="last-name">Last Name:</label>
@@ -55,8 +58,16 @@
                     
                     <div>
                         <label for="gender">Gender:</label>
-                        
-                        <div class="flex-icon border">
+
+                        <select name="gender" id="gender" class="border">
+                            <option value="select" disabled selected>Select here</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+
+                        <!-- change the input to select -->
+                        <!-- <div class="flex-icon border">
                             <input type="text" name="gender" id="gender" placeholder="Select here" />
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +77,7 @@
                                         fill="#A6A6A6" />
                                 </g>
                             </svg>  
-                        </div>
+                        </div> -->
                     </div>
 
 
@@ -133,7 +144,7 @@
                     </div>
                 </div>
 
-                <button type="register" id="register-btn">Register</button>
+                <button type="register" id="register-btn"><a href="#home">Register</a> </button>
 
                 <footer>
                      <p>By clicking Register, you agree to our <a href="#home">Terms of Use</a>  and our <a href="#home">Privacy Policy</a> </p>
